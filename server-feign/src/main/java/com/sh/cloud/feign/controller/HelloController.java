@@ -20,11 +20,18 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String hello(@RequestParam("name") String name) throws Throwable{
-        return helloClient.hello("feign-" + name);
+        return helloClient.hello("feign-", name);
     }
 
     @GetMapping("/hi")
-    public String hi(String name){
-        return helloClient.hi("feign-" + name);
+    public String hi(String name) throws Throwable {
+        return helloClient.hi("feign-", name);
+    }
+
+    @GetMapping("/server1")
+    public String server1(String num) throws Throwable {
+        num = System.currentTimeMillis() + "!";
+        System.out.println(num);
+        return helloClient.server1(num);
     }
 }

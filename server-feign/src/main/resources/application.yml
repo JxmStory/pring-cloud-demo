@@ -13,3 +13,21 @@ spring:
 feign:
   hystrix:
     enabled: true
+
+#全局配置
+# 请求连接的超时时间 默认的时间为 1 秒
+ribbon:
+  ConnectTimeout: 8000
+# 请求处理的超时时间
+  ReadTimeout: 8000
+
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 8000
+        timeout:
+          enabled: false

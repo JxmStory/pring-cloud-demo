@@ -23,18 +23,5 @@ public class HelloApplication {
         SpringApplication.run(HelloApplication.class, args);
     }
 
-    @Value("${server.port}")
-    String port;
-
-    @RequestMapping("/hello")
-    public String hello(@RequestParam(value = "name") String name) {
-        return "hello, " + name + " ,i am from port:" + port;
-    }
-
-    @RequestMapping(value = "/hi", method = RequestMethod.GET)
-    public String hi(String name){
-        return "hi, " + name + "调用成功!";
-    }
-
 }
 

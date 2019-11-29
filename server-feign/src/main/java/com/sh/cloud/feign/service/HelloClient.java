@@ -16,10 +16,15 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface HelloClient {
 
     @RequestMapping(value = "/hello")
-    public String hello(@RequestParam("name") String name) throws Throwable;
+    public String hello(@RequestParam("serverName") String serverName,
+                        @RequestParam("userName") String userName) throws Throwable;
 
     @GetMapping(value = "/hi")
-    public String hi(@RequestParam("name") String name);
+    public String hi(@RequestParam("serverName") String serverName,
+                     @RequestParam("userName") String userName) throws Throwable;
+
+    @GetMapping(value = "/server1")
+    public String server1(@RequestParam("num") String num) throws Throwable;
 
     /**
      * 功能描述: HelloClient的内部类
@@ -34,7 +39,7 @@ public interface HelloClient {
         public HelloClient create(Throwable throwable){
             return new HelloClient() {
                 @Override
-                public String hello(String name) throws Throwable{
+                public String hello(String serverName, String userName) throws Throwable{
                     if(throwable != null){
                         throw throwable;
                     }
@@ -42,8 +47,16 @@ public interface HelloClient {
                 }
 
                 @Override
-                public String hi(String name){
-                    return "Error ," + name;
+                public String hi(String serverName, String userName){
+                    return "Error ," + userName;
+                }
+
+                @Override
+                public String server1(String num) throws Throwable {
+                    if(throwable != null){
+                        throw throwable;
+                    }
+                    return null;
                 }
             };
         }
