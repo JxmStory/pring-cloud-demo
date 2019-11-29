@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/server-hello/hello.iml" filepath="$PROJECT_DIR$/server-hello/hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/pring-cloud-demo.iml" filepath="$PROJECT_DIR$/pring-cloud-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/server/server-eureka.iml" filepath="$PROJECT_DIR$/server/server-eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/feign/server-feign.iml" filepath="$PROJECT_DIR$/feign/server-feign.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hello/server-hello.iml" filepath="$PROJECT_DIR$/hello/server-hello.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ribbon/server-ribbon.iml" filepath="$PROJECT_DIR$/ribbon/server-ribbon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zuul/server-zuul.iml" filepath="$PROJECT_DIR$/zuul/server-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-ribbon/ribbon.iml" filepath="$PROJECT_DIR$/server-ribbon/ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-eureka/server-eureka.iml" filepath="$PROJECT_DIR$/server-eureka/server-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-feign/server-feign.iml" filepath="$PROJECT_DIR$/server-feign/server-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-hello/server-hello.iml" filepath="$PROJECT_DIR$/server-hello/server-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-ribbon/server-ribbon.iml" filepath="$PROJECT_DIR$/server-ribbon/server-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-zuul/server-zuul.iml" filepath="$PROJECT_DIR$/server-zuul/server-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-zuul/zuul.iml" filepath="$PROJECT_DIR$/server-zuul/zuul.iml" />
     </modules>
   </component>
 </project>

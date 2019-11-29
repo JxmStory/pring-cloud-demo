@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df252cf4-ecb9-4524-9868-130a9d5c42d0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/feign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/feign/server-feign.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/hello.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/ribbon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/server-ribbon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/server/server-eureka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sh/cloud/pringclouddemo/PringCloudDemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sh/cloud/pringclouddemo/PringCloudDemoApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/server-zuul.iml" afterDir="false" />
-    </list>
     <list id="7aa5a0fe-f6d3-456c-9ff6-f8f79fb4ff82" name="DotCommit" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
@@ -188,8 +173,63 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/target/classes/com/sh/cloud/hello/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello/target/classes/com/sh/cloud/hello/HelloApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/target/classes/com/sh/cloud/zuul/filter/MyFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/target/classes/com/sh/cloud/zuul/filter/MyFilter.class" afterDir="false" />
+    </list>
+    <list default="true" id="df252cf4-ecb9-4524-9868-130a9d5c42d0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/server-eureka/server-eureka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-feign/server-feign.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-hello/hello.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-ribbon/ribbon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-zuul/zuul.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/server-feign.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/src/main/java/com/sh/cloud/feign/FeignApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/src/main/java/com/sh/cloud/feign/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/src/main/java/com/sh/cloud/feign/service/HelloClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/target/classes/com/sh/cloud/feign/FeignApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/target/classes/com/sh/cloud/feign/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/target/classes/com/sh/cloud/feign/service/HelloClient$HelloClientHystrix$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/target/classes/com/sh/cloud/feign/service/HelloClient$HelloClientHystrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/target/classes/com/sh/cloud/feign/service/HelloClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/src/main/java/com/sh/cloud/hello/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/classes/com/sh/cloud/hello/HelloApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/server-ribbon.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/src/main/java/com/sh/cloud/ribbon/RibbonApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/src/main/java/com/sh/cloud/ribbon/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/src/main/java/com/sh/cloud/ribbon/service/HelloService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/target/classes/com/sh/cloud/ribbon/RibbonApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/target/classes/com/sh/cloud/ribbon/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/target/classes/com/sh/cloud/ribbon/service/HelloService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server-eureka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/sh/cloud/server/ServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/test/java/com/sh/cloud/server/ServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/sh/cloud/server/ServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/test-classes/com/sh/cloud/server/ServerApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/server-zuul.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/src/main/java/com/sh/cloud/zuul/ZuulApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/src/main/java/com/sh/cloud/zuul/filter/MyFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/target/classes/com/sh/cloud/zuul/ZuulApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/target/classes/com/sh/cloud/zuul/filter/MyFilter.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -199,6 +239,11 @@
     <ignored path="$PROJECT_DIR$/feign/target/" />
     <ignored path="$PROJECT_DIR$/zuul/target/" />
     <ignored path=".idea/" />
+    <ignored path="$PROJECT_DIR$/server-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/server-hello/target/" />
+    <ignored path="$PROJECT_DIR$/server-feign/target/" />
+    <ignored path="$PROJECT_DIR$/server-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/server-eureka/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -207,7 +252,44 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server-hello/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server-ribbon/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server-zuul/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -232,11 +314,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/hello/src/main/java/com/sh/cloud/hello/HelloApplication.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/feign/src/main/java/com/sh/cloud/feign/controller/HelloController.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/feign/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -258,10 +335,14 @@
         <option value="$PROJECT_DIR$/feign/src/main/java/com/sh/cloud/feign/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/ribbon/src/main/java/com/sh/cloud/ribbon/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/zuul/src/main/java/com/sh/cloud/zuul/filter/MyFilter.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/hello/src/main/java/com/sh/cloud/hello/HelloApplication.java" />
         <option value="$PROJECT_DIR$/server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/feign/pom.xml" />
+        <option value="$PROJECT_DIR$/server-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/server-hello/pom.xml" />
+        <option value="$PROJECT_DIR$/server-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/server-zuul/pom.xml" />
       </list>
     </option>
   </component>
@@ -299,8 +380,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,43 +390,31 @@
             <path>
               <item name="pring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="pring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
+              <item name="server-hello" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="pring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
+              <item name="server-ribbon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="server-ribbon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="pring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
+              <item name="server-zuul" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -501,12 +568,21 @@
       <workItem from="1565144564957" duration="1575000" />
       <workItem from="1565771627015" duration="274000" />
       <workItem from="1574926877124" duration="1826000" />
-      <workItem from="1575010455970" duration="1556000" />
+      <workItem from="1575010455970" duration="1603000" />
+      <workItem from="1575017230404" duration="294000" />
     </task>
+    <task id="LOCAL-00001" summary="rename">
+      <created>1575017193857</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575017193857</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39919000" />
+    <option name="totallyTimeSpent" value="40260000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -519,6 +595,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015129" side_tool="true" weight="0.50321543" />
@@ -537,24 +614,24 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.329582" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905295" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.50321543" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22995462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23373677" />
       <window_info anchor="right" id="Bean Validation" order="3" />
-      <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="9" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Alibaba Cloud Explorer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32838285" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32838285" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,31 +640,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rename" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/feign/src/main/java/com/sh/cloud/feign/FeignApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign/src/main/java/com/sh/cloud/feign/service/HelloClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feign/src/main/java/com/sh/cloud/feign/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -759,13 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/cloud/spring-cloud-openfeign-core/2.0.0.RELEASE/spring-cloud-openfeign-core-2.0.0.RELEASE.jar!/org/springframework/cloud/openfeign/EnableFeignClients.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -855,9 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -950,8 +997,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/server-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-hello/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
