@@ -6,20 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="feign" />
-        <module name="hello" />
-        <module name="ribbon" />
-        <module name="server" />
-        <module name="zuul" />
+        <module name="server-eureka" />
+        <module name="server-feign" />
+        <module name="server-hello" />
+        <module name="server-ribbon" />
+        <module name="server-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="feign" target="1.8" />
-      <module name="hello" target="1.8" />
       <module name="pring-cloud-demo" target="1.8" />
-      <module name="ribbon" target="1.8" />
-      <module name="server" target="1.8" />
-      <module name="zuul" target="1.8" />
+      <module name="server-eureka" target="1.8" />
+      <module name="server-feign" target="1.8" />
+      <module name="server-hello" target="1.8" />
+      <module name="server-ribbon" target="1.8" />
+      <module name="server-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
