@@ -4,7 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>server-hello</module>
+        <module>server-hello-a</module>
+        <module>server-hello-b</module>
         <module>server-ribbon</module>
         <module>server-feign</module>
         <module>server-zuul</module>

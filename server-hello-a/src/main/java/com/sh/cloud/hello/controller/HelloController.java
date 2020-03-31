@@ -1,6 +1,8 @@
 package com.sh.cloud.hello.controller;
 
 import com.sh.cloud.hello.service.HelloService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,6 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
+    private static Logger logger = LoggerFactory.getLogger(HelloController.class);
+
     @Value("${server.port}")
     String port;
 
@@ -20,6 +24,7 @@ public class HelloController {
     @RequestMapping("/hello")
     public String hello(@RequestParam(value = "serverName") String serverName,
                         @RequestParam(value = "userName") String userName) {
+        logger.info("【server-hello-a】响应服务 入参：serverName={},userName={}", serverName, userName);
         return "hello, " + userName + " ,i am from port:" + port;
     }
 

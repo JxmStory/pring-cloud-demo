@@ -5,7 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/pring-cloud-demo.iml" filepath="$PROJECT_DIR$/pring-cloud-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-eureka/server-eureka.iml" filepath="$PROJECT_DIR$/server-eureka/server-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-feign/server-feign.iml" filepath="$PROJECT_DIR$/server-feign/server-feign.iml" />
-      <module fileurl="file://$PROJECT_DIR$/server-hello/server-hello.iml" filepath="$PROJECT_DIR$/server-hello/server-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-hello-a/server-hello-a.iml" filepath="$PROJECT_DIR$/server-hello-a/server-hello-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-hello-b/server-hello-b.iml" filepath="$PROJECT_DIR$/server-hello-b/server-hello-b.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-ribbon/server-ribbon.iml" filepath="$PROJECT_DIR$/server-ribbon/server-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-zuul/server-zuul.iml" filepath="$PROJECT_DIR$/server-zuul/server-zuul.iml" />
     </modules>

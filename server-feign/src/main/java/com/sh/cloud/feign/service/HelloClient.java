@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**
  * @Auther: admin
  * @Date: 2019/1/9 10:19
- * @Description:
+ * @Description: 当server-hello-a 和 server-hello-b 都启动后 会实现负载均衡
  */
 @FeignClient(value = "service-hello", fallbackFactory = HelloClient.HelloClientHystrix.class)
 public interface HelloClient {
