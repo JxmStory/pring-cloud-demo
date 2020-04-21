@@ -34,4 +34,10 @@ public class HelloController {
         System.out.println(num);
         return helloClient.server1(num);
     }
+
+    @RequestMapping("/h")
+    public String h(@RequestParam("userId") String userId,
+                    @RequestParam("name") String name) throws Throwable{
+        return userId+name;
+    }
 }
