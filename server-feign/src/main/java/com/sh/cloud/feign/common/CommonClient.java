@@ -1,7 +1,6 @@
-package com.sh.cloud.feign.service;
+package com.sh.cloud.feign.common;
 
 import feign.hystrix.FallbackFactory;
-import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -11,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @Date: 2019/1/9 10:19
  * @Description: 当server-hello-a 和 server-hello-b 都启动后 会实现负载均衡
  */
-@FeignClient(value = "service-hello", fallbackFactory = HelloClient.HelloClientHystrix.class)
-public interface HelloClient {
+
+public interface CommonClient {
 
     @RequestMapping(value = "/hello")
     public String hello(@RequestParam("serverName") String serverName,
@@ -32,17 +31,17 @@ public interface HelloClient {
      * @date: 2019/3/7 11:40
      */
     @Component
-    class HelloClientHystrix implements FallbackFactory<HelloClient>{
+    class CommonClientHystrix implements FallbackFactory<CommonClient>{
 
         @Override
-        public HelloClient create(Throwable throwable){
-            return new HelloClient() {
+        public CommonClient create(Throwable throwable){
+            return new CommonClient() {
                 @Override
                 public String hello(String serverName, String userName) throws Throwable{
                     if(throwable != null){
-                        throw throwable;
+                        new Exception(throwable).printStackTrace();
                     }
-                    return null;
+                    return "Error ," + serverName + "-" + userName;
                 }
 
                 @Override

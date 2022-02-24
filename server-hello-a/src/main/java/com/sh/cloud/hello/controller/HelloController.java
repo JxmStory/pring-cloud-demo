@@ -30,6 +30,7 @@ public class HelloController {
 
     @RequestMapping(value = "/hi", method = RequestMethod.GET)
     public String hi(String serverName, String userName){
+        int i = 1/0;
         return "hi, " + userName + "调用成功!";
     }
 

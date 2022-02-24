@@ -12,7 +12,6 @@
     <name>server-zuul</name>
     <description>Demo project for Spring Boot</description>
 
-    <groupId>com.sh.cloud</groupId>
     <artifactId>server-zuul</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>

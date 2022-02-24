@@ -3,7 +3,10 @@ server:
 
 spring:
   application:
-    name: service-hello
+    # 配合测试相同服务的负载均衡
+#    name: service-hello
+    # 配合测试不同服务的动态调用
+    name: service-hello-a
 
 eureka:
   client:
